@@ -58,5 +58,28 @@ $arr1=[1,2,3,4];
 $arr2=[5,6,7,8];
 $arr3= array_merge($arr1,$arr2);
 $arr4=[...$arr2]; //spread operator
-print_r($arr4);
+// print_r($arr4);
+
+$a=['green','red','yellow'];
+$b=['avacado','apple','banana'];
+$c=array_combine($a,$b);
+// print_r($c);
+
+$keys=array_keys($c);
+// print_r($keys);
+
+$flipped=array_flip($c);
+// print_r($flipped);
+
+//ranges
+
+$number=range(1,10);
+// print_r($number);
+
+$newNumber=array_map(function($number){
+ return 'Number ${number}';
+},$number);
+// print_r($newNumber);
+
+
 ?>
