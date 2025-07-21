@@ -4,7 +4,7 @@
 // $_SERVER -  conatains server side information
 // $_GET - contains information about varibles passed thri=ough a URL or a form
 // $_POST - contains information about form
-// $COOKIE - contains information about cookies
+// $_COOKIE - contains information about cookies
 // $_FILES - contains information about files uploaded to thhe script
 
 ?>
